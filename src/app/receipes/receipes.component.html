@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-5">
+        <p>
+            <app-recipe-list></app-recipe-list>
+        </p>
+    </div>
+    <div class="col-md-7">
+        <router-outlet></router-outlet>
+        <!-- <p>
+            <app-recipe-detail *ngIf = "recipeSelected; else infoText" [recipeSelected] = "recipeSelected"></app-recipe-detail>
+            <ng-template #infoText>
+                <p>
+                    Please select a recipe.
+                </p>
+            </ng-template>
+        </p> -->
+    </div>
+</div>
